@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+    
+}
+
+.div-centro{
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+img {
+    border-radius: 100px;
+    max-width: 60px;
+}
+h1{
+   font-weight: 700;
+   font-size: medium;
+   
+}
+
+h2{
+    font-weight: 600;
+    font-size: small;
+    color: hsl(75, 94%, 57%);
+}
+
+h3{
+    font-size: 400;
+    font-size: x-small;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-redes li {
+    margin: 10px 0;
+    list-style-type: none;
+    font-weight: 400;
+  }
+
+  .btn {
+    background-color: hsl(0, 0%, 20%);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+  }
+
+
+  .btn:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%) ;
+  }
